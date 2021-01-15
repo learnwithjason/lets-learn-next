@@ -49,13 +49,11 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+        <a href="https://app.netlify.com/start/deploy?repository=https://github.com/learnwithjason/lets-learn-next&utm_source=learnwithjason&utm_medium=github&utm_campaign=devex">
+          <img
+            src="https://www.netlify.com/img/deploy/button.svg"
+            alt="Deploy this project to Netlify"
+          />
         </a>
       </footer>
     </div>
